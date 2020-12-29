@@ -1,0 +1,16 @@
+* {
+  background-color: rgb(219, 232, 243);
+}
+.sign-in-head {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.svg-class {
+  color: red;
+}
