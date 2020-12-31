@@ -2,45 +2,53 @@
   background-color: rgb(219, 232, 243);
   font-family: "Roboto", sans-serif;
 }
+
 .sign_in_head {
   display: flex;
   justify-content: space-around;
-  margin: 5%;
+
+  margin-bottom: 3%;
+  margin-left: 5%;
 }
+
 .sign_in_form {
   display: flex;
   flex-direction: column;
+  margin-top: 6%;
+  margin-right: 10%;
 }
 
-.svg_clss {
-  color: red;
+.svg_clss>img {
+  margin-left: 100px;
+  width: 713px;
+  height: 461px;
+  background-color: #e5e5e5;
 }
-.logo_icon > a:link {
-  width: ;
-}
-.logo_icon > a:hover {
-}
+
 .slogan {
   font: "Open Sans", sans-serif;
   font-size: larger;
   font-weight: bold;
   color: #3751fe;
 }
+
 .wlcm_msg,
 .login_form,
 .btn {
   text-align: center;
-  margin: 5px;
 }
+
 .login_option {
   display: flex;
   justify-content: space-around;
 }
+
 .nav {
   display: flexbox;
   justify-content: space-around;
 }
-.nav > a:link {
+
+.nav>a:link {
   text-decoration: none;
   font-size: 15px;
 }
