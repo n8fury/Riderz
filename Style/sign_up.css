@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(27, 170, 189, 0.719);
+}
+
+.head-wrapper{
+    background-color: purple;
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    color: yellow;
+}
+
+
+.form{
+    display: inline block;
+     text-align: center;
+}
+
+.name{
+    display: inline-flex;
+    gap: 20px;
+}
+
+
+label.s{
+    font-size: 120%;
+    color: rgb(19, 14, 13);
+    font-weight: bold;
+    
+}
+
+input.a{
+    height: 0.8cm;
+    width: 5cm;
+}
+
+input.b{
+    height: 0.8cm;
+    width: 10cm;
+}
+
+input.c{
+    background-color: green;
+    height: 1.5cm;
+    width: 5cm;
+    font-size: 130%;
+    font-weight: bolder;
+    
+}
