@@ -14,7 +14,6 @@
 
 .svg_clss {
   color: red;
-  background-color: #000000;
 }
 .logo_icon > a:link {
   color: green;
@@ -26,7 +25,6 @@
   text-decoration: none;
   font-size: large;
   font-weight: 700;
-  color: #000000;
 }
 .slogan {
   font: "Open Sans", sans-serif;
@@ -43,4 +41,12 @@
 .login_option {
   display: flex;
   justify-content: space-around;
+}
+.nav {
+  display: flexbox;
+  justify-content: space-around;
+}
+.nav > a:link {
+  text-decoration: none;
+  font-size: 15px;
 }
