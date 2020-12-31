@@ -5,27 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin | Riderz</title>
-  <link rel="stylesheet" href="/Style/style.css">
+  <link rel="stylesheet" href="Style/style.css">
 </head>
 
 <body>
-  <div class="sign-in-head">
-    <div class="sign-in-form">
-      <a href="/Admin_Login.html">
-        <span>
-          Riderz
-        </span>
-      </a>
+  <div class="sign_in_head">
+    <div class="sign_in_form">
+      <div class="logo_icon">
+        <a href="/Admin_Login.html">
+          <span>
+            Riderz
+          </span>
+        </a>
+      </div>
 
-      <p>Welcome Admin</p>
+      <div class="wlcm_msg">
+        <p>Welcome Admin</p>
+      </div>
 
 
-      <label for="email"></label>
-      <input type="email" id="email" name="email" placeholder="E-Mail">
-
-
-      <label for="pwd"></label>
-      <input type="password" id="pwd" name="pwd" placeholder="Password">
+      <div class="login_form">
+        <div class="email_form">
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="E-Mail">
+        </div>
+        <div class="pwd_form">
+          <label for="pwd"></label>
+          <input type="password" id="pwd" name="pwd" placeholder="Password">
+        </div>
+      </div>
 
 
       <button type="button">Login </button>

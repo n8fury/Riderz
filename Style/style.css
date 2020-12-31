@@ -1,16 +1,46 @@
 * {
   background-color: rgb(219, 232, 243);
+  font-family: "Roboto", sans-serif;
 }
-.sign-in-head {
+.sign_in_head {
   display: flex;
   justify-content: space-around;
   margin: 5%;
 }
-.sign-in-form {
+.sign_in_form {
   display: flex;
   flex-direction: column;
 }
 
-.svg-class {
+.svg_clss {
   color: red;
+  background-color: #000000;
+}
+.logo_icon > a:link {
+  color: green;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 700;
+}
+.logo_icon > a:hover {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 700;
+  color: #000000;
+}
+.slogan {
+  font: "Open Sans", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: #3751fe;
+}
+.wlcm_msg,
+.login_form,
+.btn {
+  text-align: center;
+  margin: 5px;
+}
+.login_option {
+  display: flex;
+  justify-content: space-around;
 }
