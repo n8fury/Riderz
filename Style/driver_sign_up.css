@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+.head-wrapper{
+    background-color: rgba(110, 102, 110, 0.445);
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    color: rgb(6, 8, 0);
+    border: 3px solid;
+    font-weight: bolder;
+
+}
+
+
+.sp{
+    border: 5px solid;
+    box-shadow: 10px 15px;
+    background-color: rgb(251, 253, 255);
+}
+
+.form{
+    display: inline block;
+     text-align: center;
+}
+
+.name{
+    display: inline-flex;
+    gap: 20px;
+}
+
+
+label.s{
+    font-size: 120%;
+    color: rgb(19, 14, 13);
+    font-weight: bold;
+   
+    
+}
+
+
+
+input.a{
+    height: 0.8cm;
+    width: 5cm;
+    border-color: rgba(236, 45, 32, 0.705);
+}
+
+input.b{
+    height: 0.8cm;
+    width: 10cm;
+    border-color: rgba(236, 45, 32, 0.705);
+}
+
+input.c{
+    background-color: rgba(74, 247, 74, 0.897);
+    height: 1.5cm;
+    width: 5cm;
+    font-size: 130%;
+    font-weight: bolder;
+    
+}
+
+
+textarea.t{
+    border-color:rgba(236, 45, 32, 0.705) ;
+    width: 11cm;
+    height: 2cm;
+
+}
