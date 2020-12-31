@@ -1,9 +1,10 @@
 body{
-    background-color: rgba(255, 255, 255, 0.918);
+    background-color: rgb(2, 9, 14);
+    
 }
 
 .head-wrapper{
-    background-color: rgba(110, 102, 110, 0.445);
+    background-color: rgba(102, 106, 110, 0.445);
     text-align: center;
     font-size: 200%;
     font-style: italic;
@@ -13,6 +14,24 @@ body{
 
 }
 
+ 
+.container{
+    margin: 10px;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.resize{
+    position: absolute;
+    top: 2%;
+    left: 46.5%;
+    transform: translateX(-10%) translateY(-10%);
+    max-width: 10%;
+    max-height: 10%;
+    
+}
 
 .sp{
     border: 5px solid;
@@ -38,8 +57,9 @@ body{
         height: 100%;  
         opacity: .4; 
         z-index: -3;
-        background-image: url(/Logo/back2.jpg);
+        background-image: url(/img/back2.jpg);
      }
+
 
 .name{
     display: inline-flex;
@@ -49,8 +69,9 @@ body{
 
 label.s{
     font-size: 120%;
-    color: rgb(19, 14, 13);
-    font-weight: bold;
+    color: rgb(243, 239, 18);
+    font-weight:bolder;
+    
    
     
 }
@@ -74,7 +95,7 @@ input.c{
     height: 1.5cm;
     width: 5cm;
     font-size: 130%;
-    font-weight: bolder;
+    font-weight: bold;
     
 }
 
