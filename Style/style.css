@@ -16,15 +16,9 @@
   color: red;
 }
 .logo_icon > a:link {
-  color: green;
-  text-decoration: none;
-  font-size: large;
-  font-weight: 700;
+  width: ;
 }
 .logo_icon > a:hover {
-  text-decoration: none;
-  font-size: large;
-  font-weight: 700;
 }
 .slogan {
   font: "Open Sans", sans-serif;
