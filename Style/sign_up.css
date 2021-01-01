@@ -3,7 +3,7 @@ body{
 }
 
 .head-wrapper{
-    background-color: rgb(20, 146, 3);
+    background-color: rgb(212, 199, 11);
     text-align: center;
     font-size: 200%;
     font-style: italic;
@@ -24,36 +24,32 @@ body{
 .resize{
     position: absolute;
     top: 1%;
-    left: 46.5%;
+    left: 46.9%;
     transform: translateX(-10%) translateY(-10%);
     max-width: 10%;
     max-height: 10%;
     
 }
 
+.con{
+    height: 80%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/us.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
 .form{
     display: inline block;
      text-align: center;
-    position: relative;
-    z-index: 3;
-     
-     }
-
-     
-     .form::before{
-        content: "";
-        position: absolute;
-        top: 0; 
-        left: 0;
-        width: 100%; 
-        height: 100%;  
-        opacity: .4; 
-        z-index: -3;
-        background-image: url(/img/gg2.jpg);
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 15%;
-        
+     width: 450px;
+     height: 545px;
+     position: relative;
+     margin: 5% auto;
+     padding: 5px;
+     background: rgba(219, 213, 203, 0.829);
+    
      }
 
 .name{
@@ -64,7 +60,7 @@ body{
 
 label.s{
     font-size: 120%;
-    color: rgb(221, 19, 19);
+    color: rgb(17, 1, 1);
     font-weight: bold;
     
 }
@@ -76,7 +72,7 @@ input.a{
 
 input.b{
     height: 1cm;
-    width: 10cm;
+    width: 10.75cm;
 }
 
 input.c{
