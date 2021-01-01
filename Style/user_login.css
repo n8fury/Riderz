@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sign_in_head {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  
+  
+  .resize{
+    position: absolute;
+    top: 3%;
+    left: 46.9%;
+    transform: translateX(-10%) translateY(-10%);
+    max-width: 10%;
+    max-height: 10%;
+    
+  }
+  
+  
+  .svg_clss>img {
+    margin-left: 100px;
+    width: 713px;
+    height: 461px;
+    background-color: #e5e5e5;
+  }
+  
+  .slogan {
+    text-align: center;
+    width: 380px;
+    margin: 0.000001% auto;
+    padding: 5px;
+    position: relative;
+    font: "Open Sans", sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: #19c2ec;
+    background: rgba(0, 0, 0, 0.61);
+  }
+  
+  .wlcm_msg{
+    font-size: 150%;
+    text-align: center;
+    color: rgb(26, 16, 3);
+    font-weight: bold;
+    font-style: initial;
+  }
+  
+  .form-box{
+    width: 380px;
+    height: 450px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    background: rgba(85, 241, 228, 0.452);
+  
+  
+  }
+  
+  input.b{
+    height: 1cm;
+    width: 7cm;
+    border-color: rgba(2, 14, 17, 0.822);
+  }
+  
+  
+  .login_form,
+  
+  .btn {
+    text-align: center;
+    
+  }
+  
+  button.c{
+      background-color: rgb(102, 97, 95);
+      height: 1.5cm;
+      width: 4cm;
+      font-size: 130%;
+      font-weight: bold;
+  }
+  
+  
