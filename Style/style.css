@@ -1,22 +1,28 @@
 * {
-  background-color: rgb(219, 232, 243);
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .sign_in_head {
-  display: flex;
-  justify-content: space-around;
-
-  margin-bottom: 3%;
-  margin-left: 5%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/crreg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
 }
 
-.sign_in_form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 6%;
-  margin-right: 10%;
+
+.resize{
+  position: absolute;
+  top: 3%;
+  left: 46.9%;
+  transform: translateX(-10%) translateY(-10%);
+  max-width: 10%;
+  max-height: 10%;
+  
 }
+
 
 .svg_clss>img {
   margin-left: 100px;
@@ -26,29 +32,56 @@
 }
 
 .slogan {
+  text-align: center;
+  width: 380px;
+  margin: 0.000001% auto;
+  padding: 5px;
+  position: relative;
   font: "Open Sans", sans-serif;
-  font-size: larger;
+  font-size: 200%;
   font-weight: bold;
-  color: #3751fe;
+  color: #f1310f;
+  background: rgba(0, 0, 0, 0.61);
 }
 
-.wlcm_msg,
+.wlcm_msg{
+  font-size: 150%;
+  text-align: center;
+  color: rgb(26, 16, 3);
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.form-box{
+  width: 380px;
+  height: 450px;
+  position: relative;
+  margin: 5% auto;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.589);
+
+
+}
+
+input.b{
+  height: 1cm;
+  width: 7cm;
+  border-color: rgba(2, 14, 17, 0.822);
+}
+
+
 .login_form,
+
 .btn {
   text-align: center;
+  
 }
 
-.login_option {
-  display: flex;
-  justify-content: space-around;
+button.c{
+    background-color: rgba(196, 85, 52, 0.897);
+    height: 1.5cm;
+    width: 4cm;
+    font-size: 130%;
+    font-weight: bold;
 }
 
-.nav {
-  display: flexbox;
-  justify-content: space-around;
-}
-
-.nav>a:link {
-  text-decoration: none;
-  font-size: 15px;
-}
