@@ -39,25 +39,26 @@ body{
     background-color: rgb(251, 253, 255);
 }
 
+
+.con{
+    height: 80%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
 .form{
     display: inline block;
      text-align: center;
-    position: relative;
-    z-index: 3;
-     
-     }
-
-     
-     .form::before{
-        content: "";
-        position: absolute;
-        top: 0; 
-        left: 0;
-        width: 100%; 
-        height: 100%;  
-        opacity: .4; 
-        z-index: -3;
-        background-image: url(/img/back2.jpg);
+     width: 450px;
+     height: 545px;
+     position: relative;
+     margin: 5% auto;
+     padding: 5px;
+     background: rgba(12, 3, 3, 0.589);
+    
      }
 
 
@@ -69,7 +70,7 @@ body{
 
 label.s{
     font-size: 120%;
-    color: rgb(243, 239, 18);
+    color: rgb(216, 76, 21);
     font-weight:bolder;
     
    
@@ -86,7 +87,7 @@ input.a{
 
 input.b{
     height: 0.8cm;
-    width: 10cm;
+    width: 10.75cm;
     border-color: rgba(236, 45, 32, 0.705);
 }
 
